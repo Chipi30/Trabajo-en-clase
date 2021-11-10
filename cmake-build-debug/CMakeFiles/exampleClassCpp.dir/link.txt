@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\exampleClassCpp.dir/objects.a
+C:\Users\jupiter\Desktop\mingw32\bin\ar.exe cr CMakeFiles\exampleClassCpp.dir/objects.a @CMakeFiles\exampleClassCpp.dir\objects1.rsp
+C:\Users\jupiter\Desktop\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\exampleClassCpp.dir/objects.a -Wl,--no-whole-archive -o exampleClassCpp.exe -Wl,--out-implib,libexampleClassCpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\exampleClassCpp.dir\linklibs.rsp
